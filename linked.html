@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    .linked{
+      color: #0b66c2;
+      padding-right: 1px;
+    }
+    .in{
+      background-color: #0b66c2;
+      color: white;
+      padding-left: 3px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      padding-right: 5rder-radius: 3px;
+    }
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    body {
+      background: #f3f2ef;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background: #ffffff;
+      width: 1200px;
+      height: 700px;
+      display: flex;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .logo {
+      /* position: absolute; */
+      top: 30;
+      left: 40px;
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    
+    .login-box {
+      width: 50%;
+      padding: 40px;
+    }
+    .login-box h1 {
+      font-size: 26px;
+      color: #8f5849;
+      margin-bottom: 30px;
+    }
+    .login-box input {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .forget {
+      display: block;
+      color: #0a66c2;
+      text-decoration: none;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+    .sign-in {
+      width: 100%;
+      padding: 12px;
+      background: #0a66c2;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+      transform: translateY(-3px);
+    }
+    .browser {
+      width: 100%;
+      padding: 12px;
+      margin-top: 15px;
+      background: white;
+      border: 1px solid #0a66c2;
+      border-radius: 25px;
+      color: #0a66c2;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .join {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    .join a {
+      color: #0a66c2;
+      text-decoration: none;
+    }
+    .image-box {
+      width: 50%;
+      background: #f5d6c6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .image-box {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #ffffff;
+    }
+    .circle {
+      width: 500px;
+      height: 500px;
+      background-color: #f5d6c6;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+    .circle img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+<body style="font-weight: bold; font-family: Arial, Helvetica, sans-serif;">
+  <div class="container">
+
+  <div class="login-box">
+<div class="logo">
+  <span class="linked">Linked</span><span class="in">in</span>
+</div>
+    <!--LEFT SIDE-->
+  
+      <h1>Take the next step in your career</h1>
+      <label for="email">Email or Phone</label>
+      <input type="text" >
+      <label for="password">Password</label>
+      <input type="password">
+      <a href="#" class="forget">Forgot password?</a>
+      <button class="sign-in">Sign in</button>
+      <button class="browser">sign in with browser</button>
+      <p class="join">
+        New to LinkedIn? <a href="#">Join now</a>
+      </p>
+    </div>
+    <!--RIGHT SIDE-->
+    <div class="image-box">
+      <div class="circle">
+        <img src="photo_2025-12-15_23-06-13.jpg" alt="linkedimg" style="width: 100%; height: 100%;">
+      </div>
+      <!--gg-->
+    </div>
+  </div>
+</body>
+</html>
